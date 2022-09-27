@@ -6,12 +6,14 @@ public class Patient {
 
     private int noOfVisits;
 
-    boolean isLoyal = false;
+    boolean isLoyal;
 
-    public Patient(int id, String name, int noOfVisits) {
+    public Patient(int id, String name, int noOfVisits, boolean isLoyal) {
         this.id = id;
         this.name = name;
-        this.noOfVisits = 0;
+        this.noOfVisits = noOfVisits;
+        this.isLoyal = isLoyal;
+
     }
 
     public int getId() {

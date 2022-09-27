@@ -59,4 +59,8 @@ public class Procedure  {
     public void setStaff(Staff staff) {
         this.staff = staff;
     }
+    @Override
+    public String toString() {
+        return "["+patient.getName()+", "+type+", "+description+", "+tooth+", "+staff.getDentists().get(0).getName()+"]";
+    }
 }
