@@ -1,4 +1,12 @@
 package Personel;
 
-public class Dentist {
+public class Dentist extends Personel{
+
+    protected String specialization;
+
+    public Dentist(String name, String specialization) {
+        super(name);
+        this.specialization = "Dentist";
+    }
+
 }
