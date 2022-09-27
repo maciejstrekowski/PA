@@ -1,10 +1,10 @@
 package Personel;
 
-public abstract class Personel {
+public abstract class Personnel {
 
     protected String name;
 
-    public Personel(String name) {
+    public Personnel(String name) {
         this.name = name;
     }
 

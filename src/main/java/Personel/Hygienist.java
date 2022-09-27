@@ -1,6 +1,6 @@
 package Personel;
 
-public class Hygienist extends Personel{
+public class Hygienist extends Personnel {
 
     protected String specialization;
 

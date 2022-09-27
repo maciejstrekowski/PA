@@ -1,6 +1,6 @@
 package Personel;
 
-public class Technician extends Personel {
+public class Technician extends Personnel {
 
     protected String specialization;
 
